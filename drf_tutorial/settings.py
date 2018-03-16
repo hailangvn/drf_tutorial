@@ -135,4 +135,4 @@ LANGUAGES = (
     ('vi', _('Vietnamese')),
 )
 
-LOCALE_PATH = [os.path.join(BASE_DIR, 'locale')]
+LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
